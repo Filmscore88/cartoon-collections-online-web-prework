@@ -20,4 +20,6 @@ end
 def find_the_cheese(array)
 new_array=[]
 cheese_types = ["cheddar", "gouda", "camembert"]
-array
+new_array=array & cheese_types
+new_array
+end
