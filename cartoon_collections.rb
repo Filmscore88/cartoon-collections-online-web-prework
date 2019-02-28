@@ -22,9 +22,8 @@ new_array=[]
 cheese_types = ["cheddar", "gouda", "camembert"]
 new_array=array & cheese_types
 new_array
-if new_array.length=0 do
+if new_array.length=0 
 puts "nil"
-else  do puts new_array.first
-end
+else  puts new_array.first
 end
 end
