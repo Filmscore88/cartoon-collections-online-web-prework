@@ -21,8 +21,5 @@ def find_the_cheese(array)
 new_array=[]
 cheese_types = ["cheddar", "gouda", "camembert"]
 new_array=array & cheese_types
-if new_array.length=0
-puts "nil"
-else  puts new_array.first
-end
+new_array.first
 end
