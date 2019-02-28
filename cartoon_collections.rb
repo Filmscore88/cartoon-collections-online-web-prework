@@ -20,8 +20,4 @@ end
 def find_the_cheese(array)
 new_array=[]
 cheese_types = ["cheddar", "gouda", "camembert"]
-array.collect do |x|x= x.contains(cheese_types)
-new_array<<x 
-end
-new_array.first
-end
+array
