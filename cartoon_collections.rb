@@ -23,5 +23,5 @@ cheese_types = ["cheddar", "gouda", "camembert"]
 array.collect do |x|x= cheese_types.include?(x)
 new_array<<x 
 end
-new_array.fist
+new_array.first
 end
